@@ -147,6 +147,8 @@ body{
     overflow: hidden;
     text-align: center;
     color: white;
+}
+.giftcards__gifts{
     padding: 40px 10%;
 }
 .giftcards__title{
@@ -163,11 +165,16 @@ body{
     color: white;
 }
 
-
-
-
 .merch{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.merch__images{
+    width: 70%;
+}
+
+.merch__list{
+    margin-right: 50px;
 }
