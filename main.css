@@ -1,0 +1,138 @@
+*{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.header{
+    height: 100vh;
+    background-image: url(img/glass-3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 0.1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header__logo{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.header__nav{
+    background-color: rgba(0, 0, 0, 0.587);
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+.nav__locations{
+    font-size: 3rem;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.nav__site{
+    margin-right: 20px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: white;
+}
+
+.link__sections{
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 20px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.nav__paraph{
+    font-size: 1.2rem;
+    margin: 20px 20%;
+}
+.nav__socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav__socials a i{
+    font-size: 60px;
+}
+.social__icons{
+    color: white;
+    margin-right: 50px;
+}
+
+.covid{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    line-height: 3rem;
+}
+
+.covid__title{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 60px;
+    color: rgb(221, 185, 5);
+    margin-bottom: 30px;
+}
+.covid__list{
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.beerfest{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/the-beer-festival-2021-crowd-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.beerfest__container{
+    background-color: rgba(0, 0, 0, 0.58);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+
+.beerfest__subtitle{
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+
+.beerfest__title{
+    font-size: 2.5rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(221, 185, 5);
+}
+.beerfest__buttons{
+    margin: 30px 0;
+}
+
+.beerfest__btn{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: black;
+    padding: 12px;
+    background-color: rgb(221, 185, 5);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.beerfest__linkfest{
+    color: rgb(221, 185, 5);
+}
