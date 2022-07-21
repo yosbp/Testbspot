@@ -136,3 +136,38 @@ body{
 .beerfest__linkfest{
     color: rgb(221, 185, 5);
 }
+
+.giftcards{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/northcote-2-dark.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    padding: 40px 10%;
+}
+.giftcards__title{
+    font-size: 3.5rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin-bottom: 30px;
+}
+.giftcards__subtitle{
+    color: rgb(221, 185, 5);
+    margin: 20px 0;
+    font-size: 1.3rem;
+}
+.giftcard__mailto{
+    color: white;
+}
+
+
+
+
+.merch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
