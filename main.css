@@ -70,6 +70,10 @@ body{
     margin-right: 50px;
 }
 
+.nav__form{
+    margin: 15px 0;
+}
+
 .covid{
     height: 100vh;
     width: 100%;
