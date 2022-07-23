@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -213,6 +214,14 @@ body{
 .sites__address p{
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 720px) {
     html {
