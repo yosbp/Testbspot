@@ -35,7 +35,7 @@ body{
 }
 
 .nav__locations{
-    font-size: 3rem;
+    font-size: 2.6rem;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -46,14 +46,14 @@ body{
 }
 
 .link__sections{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     margin-right: 20px;
     font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 .nav__paraph{
-    font-size: 1.2rem;
-    margin: 20px 20%;
+    font-size: 1.1rem;
+    margin: 20px 15%;
 }
 .nav__socials{
     display: flex;
@@ -62,7 +62,7 @@ body{
 }
 
 .nav__socials a i{
-    font-size: 60px;
+    font-size: 3.6rem;
 }
 .social__icons{
     color: white;
@@ -81,7 +81,7 @@ body{
 
 .covid__title{
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size: 60px;
+    font-size: 4rem;
     color: rgb(221, 185, 5);
     margin-bottom: 30px;
 }
@@ -143,7 +143,6 @@ body{
     background-image: url(img/northcote-2-dark.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
     overflow: hidden;
     text-align: center;
     color: white;
@@ -168,7 +167,7 @@ body{
 .merch{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .merch__images{
@@ -177,4 +176,46 @@ body{
 
 .merch__list{
     margin-right: 50px;
+}
+
+.site{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/huapai-map.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+}
+
+.sites__title{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.sites__events p{
+    color: gray;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+.sites__events a{
+    color: white;
+}
+
+.sites__address{
+    color: white;
+    margin-top: 20px;
+}
+.sites__address a{
+    color: gray;
+}
+.sites__address p{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 13px;
+    }
 }
